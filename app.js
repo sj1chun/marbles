@@ -28,7 +28,7 @@ var fs = require('fs');
 var cors = require('cors');
 
 //// Set Server Parameters ////
-var host = process.env.HOST;
+var host = process.env.PORT;
 var port = process.env.VCAP_APP_HOST||"0.0.0.0";
 
 ////////  Pathing and Module Setup  ////////
