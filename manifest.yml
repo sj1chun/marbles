@@ -1,10 +1,10 @@
 ---
 applications:
 - disk_quota: 1024M
-  name: marbles-blockchain-sj
+  name: blockchain-app-sj
   command: "node app.js"
   path: "."
   instances: 1
   memory: 512M
   services:
-   - marbles-blockchain-sj
+   - blockchain-svc-sj
